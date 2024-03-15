@@ -36,6 +36,7 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 4.1  | BCD wurde ausgewählt   | 12 | 1100 |
 | 4.2  | ASCII wurde ausgewählt     | 33   | !   |
 | 5.1  | BCD wurde ausgewählt      | 12,3 | 1100,01001 |
+| 6.1  | 
 | 4.2  | Applikation ist gestartet | In der Eingabe, wird die Zahl 1 eingegeben. | In der Ausgabe steht 00110001. |
 | 5.1  | Applikation ist gestartet | Im Menü bei Eingabe, ASCII-Code auswählen und bei Ausgabe, BCD-Code auswählen. |
 | 5.2  | Applikation ist gestartet | In der Eingabe, wird 00110111	eingeben.| In der Ausgabe steht 0111. |
