@@ -47,11 +47,18 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode ineinand
 
 | AP-№ | Frist      | Zuständig   | Beschreibung                  | geplante Zeit |
 | ---- | ---------- | ----------- | ----------------------------- | ------------- |
-|  1.1 |            |             |                               |               | 
-|  2.1 |            |             |                               |               | 
-|  3.1 |            |             |                               |               | 
-|  4.1 |            |             |                               |               | 
-|  5.1 |            |             |                               |               | 
+|  1.A | 8.3.24     | Jeanneret   | Userstories schreiben         |  60 min       | 
+|  2.A | 8.3.24     | Jeanneret   | Testfälle schreiben           |  60 min       | 
+|  3.A | 15.3.24    | Jeanneret   | Planen schreiben              |  60 min       | 
+|  4.A | 15.3.24    | Müller      | Html.index machen             |  60 min       | 
+|  5.A | 15.3.24    | Müller      | CSS.style machen              |  120 min      | 
+|  6.A | 15.3.24    | Müller/Jeanneret| BCD-Code.Js beginnen      |  120 min      | 
+|  6.B | 22.3.24    | Müller/Jeanneret| BCD-Code.JS fertig machen |  120 min      | 
+|  7.A | 22.3.24    | Müller/Jeanneret| ASCII-Code.Js beginnen    |  120 min      | 
+|  7.B | 5.4.24     | Müller/Jeanneret| ASCII-Code.Js fertig machen| 120 min      | 
+|  8.A | 5.4.24     | Müller      | Code Überprüfen               |  60 min       |
+|  9.A | 5.4.24     | Jeanneret   | Kontrollieren schreiben       |  60 min       |
+
 
 Total:
 
