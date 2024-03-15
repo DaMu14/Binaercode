@@ -41,7 +41,8 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode ineinand
 
 ### 1.4 Diagramme
 
- 
+ ![Screenshot 2024-03-15 080305](https://github.com/DaMu14/Binaercode/assets/110892742/0616beef-4fbb-46f3-8af3-eda56defc2cb)
+
 
 ## 2 Planen
 
