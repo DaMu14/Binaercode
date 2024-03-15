@@ -47,7 +47,11 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode ineinand
 
 | AP-№ | Frist      | Zuständig   | Beschreibung                  | geplante Zeit |
 | ---- | ---------- | ----------- | ----------------------------- | ------------- |
- 
+|  1.1 |            |             |                               |               | 
+|  2.1 |            |             |                               |               | 
+|  3.1 |            |             |                               |               | 
+|  4.1 |            |             |                               |               | 
+|  5.1 |            |             |                               |               | 
 
 Total:
 
