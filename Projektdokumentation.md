@@ -8,11 +8,11 @@ Müller und Jeanneret
 
 ### 1.1 Ihr Projekt
 
-In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode ineinander umrechnen kann.
+In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechnen kann.
 
 | US-№ | Verbindlichkeit | Typ           | Beschreibung                                                                                                                                                |
 | ---- | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Muss            | Funktional    | Als Benutzer möchte ich die Applikation starten können, um sie für meine Zwecke verwenden zu können.                                                        |
+| 1    | Muss            | Funktional    | Als Benutzer möchte ich die Applikation starten können, damit ich sie für meine Zwecke brauchen kann.                                                        |
 | 2    | Muss            | Funktional    | Als Benutzer möchte ich Binärcode in Dezimalzahlen umrechnen können, um verschiedene Codes miteinander vergleichen zu können.                               |
 | 3    | Muss            | Funktional    | Als Benutzer möchte ich Dezimalzahlen in Binärcode umrechnen können, um effizient mit Binärdaten arbeiten zu können.                                        |
 | 4    | Muss            | Funktional    | Als Benutzer möchte ich Dezimalzahlen mit Kommas in der Applikation in Binärcode umrechnen können, um präzise Daten verarbeiten zu können.                  |
