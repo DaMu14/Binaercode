@@ -18,12 +18,13 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 4    | Muss            | Funktional    | Als Benutzer möchte ich Dezimalzahlen in Binärcode umrechnen können, damit ich effizient mit Binärdaten arbeiten kann.                                        |
 | 5    | Muss            | Funktional    | Als Benutzer möchte ich, dass Dezimalzahlen mit Kommas in der Applikation in Binärcode umgerechnet werden können, damit ich präzise Daten verarbeiten kann.                  |
 | 6    | Muss            | Funktional    | Als Benutzer möchte ich sehen, Binärcode in Kommazahlen umwandeln können, damit ich die Daten präzise verarbeiten kann.                                |
-| 7    | Muss            | Funktional    | Als Benutzer möchte ich BCD-Code verwenden können in der Applikation, damit ich spezielle binäre Darstellungen nutzen kann.                                |
+| 7    | Muss            | Funktional    | Als Benutzer möchte ich BCD-Code in der Applikation verwenden können, damit ich spezielle binäre Darstellungen nutzen kann.                                |
 | 8    | Muss            | Funktional    | Als Benutzer möchte ich ASCII-Code verwenden können in der Applikation, damit ich andere binäre Daten umrechnen kann.                                        |
 | 9    | Muss            | Funktional    | Als Benutzer möchte ich die verschiedenen Binärcodes ineinander umrechnen können, damit ich flexibel zwischen den Darstellungen wechseln kann.           |
 | 10    | Muss            | Qualität      | Als Benutzer möchte ich, dass Fehleingaben abgefangen werden, damit sichergestellt ist, dass die Umrechnungen korrekt erfolgen.                            |
 | 11   | Muss            | Randbedingung | Als Benutzer möchte ich, dass die Applikation benutzerfreundlich ist, damit ich sie intuitiv und effizient nutzen kann.                                    |
 | 12  | Muss             | Funktional     | Als Benutzer möcht ich negative Zahlen in Binärzahlen umrechnen können, damit ich auch mit diessen Binärdaten arbeiten kann. |
+| 13   | Muss            | Funktional     | Als Benutzer möchte ich Text in Binärcode umwandeln können, damit ich flexibler bin. |
 
 ### 1.3 Testfälle
 
@@ -31,12 +32,13 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | PC ist gestartet | Applikation öffnen | Applikation öffnet sich. |
 | 2.1  | Applikation ist gestartet | BCD Code oder ASCII Code auswählen | Umrechnungsmenu öffnet sich. |
-| 3.1  | BCD wurde ausgewählt      | Im Menü bei Eingabe, Binär auswählen und bei Ausgabe, Dezimal auswählen. 0110| Umrechner braucht Eingabedaten. 6|
+| 3.1  | BCD wurde ausgewählt      | 0110|  6|
 | 3.2  | ASCII Code wurde ausgewählt | Hallo    |  72 97 108 108 111   |
 | 4.1  | BCD wurde ausgewählt   | 12 | 1100 |
 | 4.2  | ASCII wurde ausgewählt     | 33   | !   |
 | 5.1  | BCD wurde ausgewählt      | 12,3 | 1100,01001 |
-| 6.1  | 
+| 6.1  | BCD wurde ausgewählt      | 1100,01  | 12,25 |
+| 7.1  | Applikation ist gestartet | Klicken auf BCD Code | Umrechnungsmenu von BCD Rechner öffnet sich. |
 | 4.2  | Applikation ist gestartet | In der Eingabe, wird die Zahl 1 eingegeben. | In der Ausgabe steht 00110001. |
 | 5.1  | Applikation ist gestartet | Im Menü bei Eingabe, ASCII-Code auswählen und bei Ausgabe, BCD-Code auswählen. |
 | 5.2  | Applikation ist gestartet | In der Eingabe, wird 00110111	eingeben.| In der Ausgabe steht 0111. |
