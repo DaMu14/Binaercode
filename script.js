@@ -66,26 +66,51 @@ function convertBinaryToDecimal(binaryValue) {
 }
 
 function convertNegativeToBinary(negativeValue) {
-     
+    const intValue = parseInt(negativeValue);
+    if (isNaN(intValue)) return; 
+
+    const bitLength = 8; 
+    const binaryArray = new Array(bitLength); 
+
+    let remainder = Math.abs(intValue);
+    for (let i = bitLength - 1; i >= 0; i--) {
+        binaryArray[i] = remainder % 2;
+        remainder = Math.floor(remainder / 2);
+    }
+
+  
+    for (let i = 0; i < bitLength; i++) {
+        binaryArray[i] = binaryArray[i] === 0 ? 1 : 0;
+    }
+
+    
+    let carry = 1;
+    for (let i = bitLength - 1; i >= 0; i--) {
+        const sum = binaryArray[i] + carry;
+        binaryArray[i] = sum % 2;
+        carry = Math.floor(sum / 2);
+    }
+
+    return binaryArray.join('');
 }
 
 function convertBinaryToNegative(binaryValue) {
-     
+     const bitLength=binaryValue.length
+
+     let decimalValue = 0;
+     for (let i=0; i< bitLength; i++) {
+        decimalValue += parseInt(binaryValue[i]) * Math.pow(2, bitLength -1-i);
+     }
+
+     if (binaryValue[0]=== '1') {
+        decimalValue = (Math.pow(2, bitLength)  - decimalValue);
+     }
+
+     return decimalValue;
 }
 
 function convertFractionToBinary(fractionValue) {
-    const maxPrecision = 5; // Maximale Anzahl von Bits im Bruchteil
-    let binaryFraction = '.';
-    let remainder = fractionValue;
-
-    for (let i = 0; i < maxPrecision; i++) {
-        remainder *= 2;
-        const bit = Math.floor(remainder);
-        binaryFraction += bit;
-        remainder -= bit;
-    }
-
-    return binaryFraction;
+  
 }
 
 
