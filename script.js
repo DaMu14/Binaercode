@@ -44,7 +44,7 @@ function convert() {
 function convertDecimalToBinary(decimalValue) {
     const floatValue = parseFloat(decimalValue);
     if (!isNaN(floatValue)) {
-        const sign = floatValue < 0 ? '-' : '';
+        const sign = floatValue < 0 ? 'nur positive Zahlen' : '';
         const integerPart = Math.abs(Math.floor(floatValue)).toString(2);
         let fractionalPart = '';
         if (floatValue % 1 !== 0) {
@@ -62,7 +62,7 @@ function convertDecimalToBinary(decimalValue) {
 }
 
 function convertBinaryToDecimal(binaryValue) {
-     
+    return parseInt(binaryValue, 2).toString();
 }
 
 function convertNegativeToBinary(negativeValue) {
