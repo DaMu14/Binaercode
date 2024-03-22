@@ -52,7 +52,8 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 
 ### 1.4 Diagramme
 
- ![Screenshot 2024-03-15 080305](https://github.com/DaMu14/Binaercode/assets/110892742/0616beef-4fbb-46f3-8af3-eda56defc2cb)
+![image](https://github.com/DaMu14/Binaercode/assets/110892742/064d213f-76a6-4da4-a3c0-bda2b1890f39)
+ 
 Usecase Diagramm
 
 
