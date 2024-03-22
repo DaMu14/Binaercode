@@ -33,7 +33,7 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 1.1  | PC ist gestartet | Applikation öffnen | Applikation öffnet sich. |
 | 2.1  | Applikation ist gestartet | BCD Code oder ASCII Code auswählen | Umrechnungsmenu öffnet sich. |
 | 3.1  | BCD wurde ausgewählt      | 0110|  6|
-| 3.2  | ASCII Code wurde ausgewählt | Hallo    |  72 97 108 108 111   |
+| 3.2  | ASCII Code wurde ausgewählt | 20   | 0010 0000 |
 | 4.1  | BCD wurde ausgewählt   | 12 | 1100 |
 | 4.2  | ASCII wurde ausgewählt     | 33   | !   |
 | 5.1  | BCD wurde ausgewählt      | 12,3 | 1100,01001 |
