@@ -74,8 +74,20 @@ function convertBinaryToNegative(binaryValue) {
 }
 
 function convertFractionToBinary(fractionValue) {
-     
+    const maxPrecision = 5; // Maximale Anzahl von Bits im Bruchteil
+    let binaryFraction = '.';
+    let remainder = fractionValue;
+
+    for (let i = 0; i < maxPrecision; i++) {
+        remainder *= 2;
+        const bit = Math.floor(remainder);
+        binaryFraction += bit;
+        remainder -= bit;
+    }
+
+    return binaryFraction;
 }
+
 
 function convertBinaryToFraction(binaryValue) {
    
