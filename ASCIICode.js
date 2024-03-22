@@ -4,5 +4,3 @@ function displayAscii() {
     var outputContainer = document.getElementById('asciiOutput');
     outputContainer.textContent = "Das Zeichen mit dem ASCII-Code " + asciiInput + " ist: " + character;
 }
-
-
