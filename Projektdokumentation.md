@@ -22,7 +22,7 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 8    | Muss            | Funktional    | Als Benutzer möchte ich ASCII-Code verwenden können in der Applikation, damit ich andere binäre Daten umrechnen kann.                                        |
 | 9    | Muss            | Funktional    | Als Benutzer möchte ich die verschiedenen Binärcodes ineinander umrechnen können, damit ich flexibel zwischen den Darstellungen wechseln kann.           |
 | 10    | Muss            | Qualität      | Als Benutzer möchte ich, dass Fehleingaben abgefangen werden, damit sichergestellt ist, dass die Umrechnungen korrekt erfolgen.                            |
-| 11   | Muss            | Randbedingung | Als Benutzer möchte ich, dass die Applikation benutzerfreundlich ist, damit ich sie intuitiv und effizient nutzen kann.                                    |
+| 11   | Muss            | Randbedingung | Als Benutzer möchte ich, dass die Applikation benutzerfreundlich ist, damit ich sie intuitiv und effizient nutzen kann.                      |
 | 12  | Muss             | Funktional     | Als Benutzer möcht ich negative Zahlen in Binärzahlen umrechnen können, damit ich auch mit diessen Binärdaten arbeiten kann. |
 | 13   | Muss            | Funktional     | Als Benutzer möchte ich Text in Binärcode umwandeln können, damit ich flexibler bin. |
 
@@ -39,6 +39,10 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 5.1  | BCD wurde ausgewählt      | 12,3 | 1100,01001 |
 | 6.1  | BCD wurde ausgewählt      | 1100,01  | 12,25 |
 | 7.1  | Applikation ist gestartet | Klicken auf BCD Code | Umrechnungsmenu von BCD Rechner öffnet sich. |
+| 8.1  |  Applikation ist gestartet  | Klicken auf ASCII Code |  Umrechnungsmenü von ASCII Rechner öffnet sich. |
+| 9.1  | Dezimal ausgewählt    | 12     | 1100   |
+| 9.2  | Kommazahl ausgewählt    | 12,2 | 1100,0011 |
+| 9.3  | 
 | 4.2  | Applikation ist gestartet | In der Eingabe, wird die Zahl 1 eingegeben. | In der Ausgabe steht 00110001. |
 | 5.1  | Applikation ist gestartet | Im Menü bei Eingabe, ASCII-Code auswählen und bei Ausgabe, BCD-Code auswählen. |
 | 5.2  | Applikation ist gestartet | In der Eingabe, wird 00110111	eingeben.| In der Ausgabe steht 0111. |
