@@ -95,3 +95,59 @@ a:hover {
 .h1 {
    grid-row: 2 / 4
 }
+
+
+.Wilkommenstitel {
+   text-align: center;
+   margin-top: 20px; 
+}
+
+
+.Maintext {
+   max-width: 600px;
+   margin: 20px auto;
+   text-align: justify; 
+}
+
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto; 
+   margin: 20px auto; 
+}
+
+
+@media (min-width: 768px) {
+   .Wilkommenstitel {
+       margin-top: 50px;
+   }
+
+   .grid-container {
+       display: grid;
+       grid-template-columns: 1fr 1fr; 
+       grid-template-rows: auto auto; 
+   }
+
+   .Wilkommenstitel {
+       grid-column: 1 / span 2; 
+       text-align: center; 
+   }
+
+   .Maintext {
+       grid-column: 1; 
+   }
+
+ 
+img {
+   display: inline-block;
+   max-width: 50%; 
+   vertical-align: middle; 
+}
+
+@media (min-width: 768px) {
+  
+   img {
+       max-width: 100%; 
+   }
+}}
