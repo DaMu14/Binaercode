@@ -64,7 +64,10 @@ Usecase Diagramm
 | ---- | ---------- | ----------- | ----------------------------- | ------------- |
 | 1.A  | 5.4.24     | Jeanneret   | Startseite erstellen           | 20 min        |
 | 2.A  | 5.4.24     | Jeanneret   | Buttons für die Unterseiten    | 20 min       |
-| 3.A  | 5.4.24     | 
+| 3.A  | 5.4.24     | Müller      | Binär in Dezimal umrechnen    |  45 min      |
+| 4.A  | 5.4.24     | Müller      | Dezimal in Binär umrechnen    |  45 min      | 
+| 5.A  | 5.4.24     | Müller      | Kommazahl in Binär umrechnen  |  45 min      |
+| 6.A  | 5.4.24     | Müller      | Binär in Kommazahl umrechnen  | 45 min       | 
 |  1.A | 8.3.24     | Jeanneret   | Userstories schreiben         |  60 min       | 
 |  2.A | 8.3.24     | Jeanneret   | Testfälle schreiben           |  60 min       | 
 |  3.A | 15.3.24    | Jeanneret   | Planen schreiben              |  60 min       | 
