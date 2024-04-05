@@ -12,7 +12,7 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 
 | US-№ | Verbindlichkeit | Typ           | Beschreibung                                                                                                                                                |
 | ---- | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Muss            | Funktional    | Als Benutzer möchte ich die Applikation starten können, damit ich sie für meine Zwecke brauchen kann.                                                       |
+| 1    | Muss            | Funktional    |Als Benutzer möchte ich eine Startseite haben, damit ich einen Überblick über die Applikation habe.                                                      |
 | 2     | Muss           | Funktional    | Als Benutzer möchte ich auswählen können, was für Zahlen  ich in Binärcode umwandeln will, damit ich flexibel Binärcode herausfinden kann. |
 | 3    | Muss            | Funktional    | Als Benutzer möchte ich Binärcode in Dezimalzahlen umrechnen können, damit ich verschiedene Codes miteinander vergleichen kann.                        |
 | 4    | Muss            | Funktional    | Als Benutzer möchte ich Dezimalzahlen in Binärcode umrechnen können, damit ich effizient mit Binärdaten arbeiten kann.                                       |
@@ -62,12 +62,15 @@ Usecase Diagramm
 
 | AP-№ | Frist      | Zuständig   | Beschreibung                  | Geplante Zeit |
 | ---- | ---------- | ----------- | ----------------------------- | ------------- |
+| 1.A  | 5.4.24     | Jeanneret   | Startseite erstellen           | 20 min        |
+| 2.A  | 5.4.24     | Jeanneret   | Buttons für die Unterseiten    | 20 min       |
+| 3.A  | 5.4.24     | 
 |  1.A | 8.3.24     | Jeanneret   | Userstories schreiben         |  60 min       | 
 |  2.A | 8.3.24     | Jeanneret   | Testfälle schreiben           |  60 min       | 
 |  3.A | 15.3.24    | Jeanneret   | Planen schreiben              |  60 min       | 
 |  4.A | 15.3.24    | Jeanneret   | Html.index machen             |  120 min      | 
 |  5.A | 15.3.24    | Jeanneret   | CSS.style machen              |  180 min      | 
-|  6.A | 8.3.24     | Müller | BCD-Code.Js beginnen               |  120 min      | 
+|  6.A | 8.3.24     | Müller |   Dezimal in Binär erstellen             |  120 min      | 
 |  6.B | 15.3.24    | Müller | BCD-Code.JS fertig machen          |  120 min      | 
 |  7.A | 15.3/22.3.24| Müller | ASCII-Code.Js beginnen            |  120 min      | 
 |  7.B | 22.3/5.4.24| Müller | ASCII-Code.Js fertig machn         |  120 min      | 
