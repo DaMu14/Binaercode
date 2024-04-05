@@ -47,7 +47,7 @@ In diesem Projekt entwickeln wir eine Anwendung, mit der man Binärcode umrechne
 | 12.1 | BCD Code und Negativezahl ausgewählt | -6 | 1 0110 |
 | 12.2 | ASCII Code und Negativezahlen ausgewählt | -6 | 45 54 |
 | 13.1 | BCD Code ausgewählt | Mein Name ist Paul. | 1101 0110 1001 1100  1101 1010 1101 0110  1001 1011 1100  1111 1010 1110 1100 |
-| 13.2 | Ascii Code ausgewählt | Mein Name ist Paul. | 77 101 105 110 32 78 97 109 101 32 105 115 116 32 80 97 117 108 46 |
+
 
 
 
