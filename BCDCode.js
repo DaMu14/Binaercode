@@ -110,10 +110,29 @@ function convertBinaryToNegative(binaryValue) {
 }
 
 function convertFractionToBinary(fractionValue) {
-  
+    let binaryResult = '';
+    let fractionalValue = parseFloat('0.' + fractionValue);
+    
+    for (let i = 0; i < 5; i++) {
+        fractionalValue *= 2;
+        binaryResult += Math.floor(fractionalValue);
+        fractionalValue -= Math.floor(fractionalValue);
+    }
+
+    return binaryResult;
 }
 
 
 function convertBinaryToFraction(binaryValue) {
-   
+    let decimalResult = 0;
+    let fractionalPart = 0.5;
+
+    for (let i = 0; i < binaryValue.length; i++) {
+        if (binaryValue[i] === '1') {
+            decimalResult += fractionalPart;
+        }
+        fractionalPart /= 2;
+    }
+
+    return decimalResult.toString();
 }
