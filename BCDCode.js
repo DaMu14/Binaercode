@@ -1,4 +1,7 @@
 
+let inputType = 'decimal';
+let outputType = 'binary';
+
 function setInputType(type) {
     inputType = type;
     document.getElementById('inputValue').placeholder = `Enter ${type.charAt(0).toUpperCase() + type.slice(1)} Value`;
@@ -24,14 +27,12 @@ function convert() {
     else if (inputType === 'binary' && outputType === 'negative'){
         convertedValue = convertBinaryToNegative(inputValue);
     }
-    else if (inputType === 'fraction' && outputType === 'binary') {
-        cenvertedValue = convertFractionToBinary(inputValue);
+    else if (inputType === 'commas' && outputType === 'binary') {
+        convertedValue = convertCommasToBinary(inputValue);
     }
-    else if (inputType === 'binary' && outputType === 'fraction') {
-        convertedValue = convertBinaryToFraction(inputValue);
+    else if (inputType === 'binary' && outputType === 'commas') {
+        convertedValue = convertBinaryToCommas(inputValue);
     }
-
-
 
     if (convertedValue !== undefined) {
         document.getElementById('outputValue').value = convertedValue;
@@ -95,44 +96,46 @@ function convertNegativeToBinary(negativeValue) {
 }
 
 function convertBinaryToNegative(binaryValue) {
-     const bitLength=binaryValue.length
+    const bitLength = binaryValue.length
 
-     let decimalValue = 0;
-     for (let i=0; i< bitLength; i++) {
-        decimalValue += parseInt(binaryValue[i]) * Math.pow(2, bitLength -1-i);
-     }
+    let decimalValue = 0;
+    for (let i = 0; i < bitLength; i++) {
+        decimalValue += parseInt(binaryValue[i]) * Math.pow(2, bitLength - 1 - i);
+    }
 
-     if (binaryValue[0]=== '1') {
-        decimalValue = (Math.pow(2, bitLength)  - decimalValue);
-     }
+    if (binaryValue[0] === '1') {
+        decimalValue = (Math.pow(2, bitLength) - decimalValue);
+    }
 
-     return decimalValue;
+    return decimalValue;
 }
 
-function convertFractionToBinary(fractionValue) {
+function convertCommasToBinary(commaValue) {
+    const numbers = commaValue.split(',').map(Number);
     let binaryResult = '';
-    let fractionalValue = parseFloat('0.' + fractionValue);
-    
-    for (let i = 0; i < 5; i++) {
-        fractionalValue *= 2;
-        binaryResult += Math.floor(fractionalValue);
-        fractionalValue -= Math.floor(fractionalValue);
+
+    for (let number of numbers) {
+        let binaryNumber = convertDecimalToBinary(number.toString());
+        binaryResult += binaryNumber.padStart(8, '0'); 
     }
 
     return binaryResult;
 }
 
 
-function convertBinaryToFraction(binaryValue) {
-    let decimalResult = 0;
-    let fractionalPart = 0.5;
+function convertBinaryToCommas(binaryValue) {
+    let decimalResult = '';
+    let binaryDigits = binaryValue.match(/.{1,8}/g); 
 
-    for (let i = 0; i < binaryValue.length; i++) {
-        if (binaryValue[i] === '1') {
-            decimalResult += fractionalPart;
-        }
-        fractionalPart /= 2;
+    for (let binaryChunk of binaryDigits) {
+        let decimalNumber = convertBinaryToDecimal(binaryChunk);
+        decimalResult += decimalNumber + ',';
     }
 
-    return decimalResult.toString();
+   
+    decimalResult = decimalResult.slice(0, -1);
+
+    return decimalResult;
 }
+
+
