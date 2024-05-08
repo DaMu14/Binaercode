@@ -68,6 +68,8 @@ Usecase Diagramm
 | 4.A  | 5.4.24     | Müller      | Dezimal in Binär umrechnen    |  45 min      | 
 | 5.A  | 5.4.24     | Müller      | Kommazahl in Binär umrechnen  |  45 min      |
 | 6.A  | 5.4.24     | Müller      | Binär in Kommazahl umrechnen  | 45 min       | 
+| 7.A  | 5.4.24     | Müller      | BCD Code verwenden können.  | 45 min      |
+| 8.A | 5.4.24    | Müller       |  
 |  1.A | 8.3.24     | Jeanneret   | Userstories schreiben         |  60 min       | 
 |  2.A | 8.3.24     | Jeanneret   | Testfälle schreiben           |  60 min       | 
 |  3.A | 15.3.24    | Jeanneret   | Planen schreiben              |  60 min       | 
