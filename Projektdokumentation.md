@@ -103,7 +103,7 @@ Wir haben beschlossen, gemäß dem Plan vorzugehen und mit dem Projekt zu beginn
 | 12.A | 22.3/5.4.24
 | 13.A | 22.3/5.4.24 | Jeanneret | 60 min    | 60 min    |
 | 14    | 5.4.24 | Jeanneret | 15 min    | 15 min    |
-| 15    | 5.4.24 | Jindividuell | 120 min    | 120 min    |
+| 15    | 5.4.24 | Individuell | 120 min    | 120 min    |
 
 ## 5 Kontrollieren
 
@@ -111,7 +111,28 @@ Wir haben beschlossen, gemäß dem Plan vorzugehen und mit dem Projekt zu beginn
 
 | TC-№ | Datum      | Resultat | Tester |
 | ---- | ---------- | -------- | ------ |
- 
+| 1.1  |5.4.24 |OK | Jeanneret |
+| 2.1  |5.4.24 |OK | Jeanneret |
+| 3.1  |5.4.24 |OK | Jeanneret |
+| 3.2  |5.4.24 |OK | Jeanneret |
+| 4.1  |5.4.24 |OK | Jeanneret |
+| 4.2  |5.4.24 |OK | Jeanneret |
+| 5.1  |5.4.24 |NOK | Jeanneret |
+| 6.1  |5.4.24 |NOK | Jeanneret |
+| 7.1  |5.4.24 |OK | Jeanneret |
+| 8.1  |5.4.24 |OK | Jeanneret |
+| 9.1  |5.4.24 |OK | Jeanneret |
+| 9.2  |5.4.24 |NOK | Jeanneret |
+| 10.1 |5.4.24 |OK | Jeanneret |
+| 10.2 |5.4.24 |OK | Jeanneret |
+| 12.1 |5.4.24 |NOK | Jeanneret |
+| 12.2 |5.4.24 |NOK | Jeanneret |
+| 13.1 |5.4.24 |OK | Jeanneret |
+
+### Testbericht
+
+Der Binär-Code-Rechner wurde auf seine Fähigkeit getestet, zwischen BCD- und ASCII-Codes umzurechnen. Die Umrechnung von BCD- und ASCII-Codes verlief größtenteils reibungslos, jedoch gab es Probleme beim Kommazahlrechnen und bei der Subtraktion von Binärzahlen, was zu ungenauen Ergebnissen führte. Um die Genauigkeit zu verbessern, müssen die Kommazahlrechnung und die Subtraktionsfunktion überarbeitet werden. Der Binär-Code-Rechner zeigt vielversprechende Ergebnisse, erfordert jedoch Anpassungen, um seine Leistungsfähigkeit zu optimieren.
+
 
  
 
