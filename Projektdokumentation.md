@@ -73,7 +73,7 @@ Usecase Diagramm
 | 9.A  | 5.4.24    | Müller      | verschiedene Binärcodes umrechnen  |      |
 | 10.A  | 5.4.24   | Jeanneret     | Fehleingaben abfangen       |  60 min    |
 | 11.A  | 5.4.24    | Jeanneret   | Benutzerfreundliche Applikation | 60 min |
-|12.A   | 5.4.24    |             | negative Zahlen in Binärzahlen umrechnen  |  60 min |
+| 12.A  | 5.4.24    |             | negative Zahlen in Binärzahlen umrechnen  |  60 min |
 | 13.A  | 5.4.24    | Müller      | Text in Binärcode umwandeln   | 60 min      |
 | 14    | 5.4.24     | Jeanneret  | Testen     | 15 min    |
 | 15    | 5.4.24    | Individuell | Portfolio schreiben    | 120 min |
@@ -98,12 +98,12 @@ Wir haben beschlossen, gemäß dem Plan vorzugehen und mit dem Projekt zu beginn
 | 7.A |  15.3.24          | Müller      | 45 min       |      120 min      |
 | 8.A |  15.3/22.3.24     | Müller      | 60 min       |      120 min      |
 | 9.A  |  22.3/5.4.24      | Müller      | 60 min       |      120 min      |
-| 10.A | 
-| 11.A | 
-| 12.A | 
-| 13.A | 
-| 14    | 
-| 15    |
+| 10.A | 22.3/5.4.24 | Jeanneret |  60 min    | 60 min    |
+| 11.A | 22.3/5.4.24 | Jeanneret |  60 min    | 60 min    |
+| 12.A | 22.3/5.4.24
+| 13.A | 22.3/5.4.24 | Jeanneret | 60 min    | 60 min    |
+| 14    | 5.4.24 | Jeanneret | 15 min    | 15 min    |
+| 15    | 5.4.24 | Jindividuell | 120 min    | 120 min    |
 
 ## 5 Kontrollieren
 
