@@ -70,10 +70,10 @@ Usecase Diagramm
 | 6.A  | 5.4.24     | Müller      | Binär in Kommazahl umrechnen  | 45 min       | 
 | 7.A  | 5.4.24     | Müller      | BCD Code verwenden können.  | 45 min      |
 | 8.A | 5.4.24    | Müller       |  ASCII Code verwenden       |  60 min     |
-| 9.A  | 5.4.24    | Müller      | verschiedene Binärcodes umrechnen  |      |
+| 9.A  | 5.4.24    | Müller      | verschiedene Binärcodes umrechnen  |  60 min    |
 | 10.A  | 5.4.24   | Jeanneret     | Fehleingaben abfangen       |  60 min    |
 | 11.A  | 5.4.24    | Jeanneret   | Benutzerfreundliche Applikation | 60 min |
-| 12.A  | 5.4.24    |             | negative Zahlen in Binärzahlen umrechnen  |  60 min |
+| 12.A  | 5.4.24    |  Jeanneret           | negative Zahlen in Binärzahlen umrechnen  |  60 min |
 | 13.A  | 5.4.24    | Müller      | Text in Binärcode umwandeln   | 60 min      |
 | 14    | 5.4.24     | Jeanneret  | Testen     | 15 min    |
 | 15    | 5.4.24    | Individuell | Portfolio schreiben    | 120 min |
@@ -100,7 +100,7 @@ Wir haben beschlossen, gemäß dem Plan vorzugehen und mit dem Projekt zu beginn
 | 9.A  |  22.3/5.4.24      | Müller      | 60 min       |      120 min      |
 | 10.A | 22.3/5.4.24 | Jeanneret |  60 min    | 60 min    |
 | 11.A | 22.3/5.4.24 | Jeanneret |  60 min    | 60 min    |
-| 12.A | 22.3/5.4.24
+| 12.A | 22.3/5.4.24 | Jeanneret | 60 min      | 80 min   |
 | 13.A | 22.3/5.4.24 | Jeanneret | 60 min    | 60 min    |
 | 14    | 5.4.24 | Jeanneret | 15 min    | 15 min    |
 | 15    | 5.4.24 | Individuell | 120 min    | 120 min    |
@@ -136,6 +136,6 @@ Der Binär-Code-Rechner wurde auf seine Fähigkeit getestet, zwischen BCD- und A
 
  
 
-## 6 Auswerten
+
  
 
