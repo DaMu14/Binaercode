@@ -12,10 +12,12 @@ function setOutputType(type) {
     document.getElementById('outputValue').placeholder = `Converted ${type.charAt(0).toUpperCase() + type.slice(1)} Value`;
 }
 
+//Durführung basierend auf Eingabe und Ausgabe Typ
 function convert() {
     const inputValue = document.getElementById('inputValue').value.trim();
     let convertedValue;
 
+    //überprüft eingabe und ausgabe Typ und ruft entsprechende Funktion auf
     if (inputType === 'decimal' && outputType === 'binary') {
         convertedValue = convertDecimalToBinary(inputValue);
     } else if (inputType === 'binary' && outputType === 'decimal') {
@@ -34,6 +36,7 @@ function convert() {
         convertedValue = convertBinaryToCommas(inputValue);
     }
 
+    // überprüft, ob konvertierung erfolgreich war
     if (convertedValue !== undefined) {
         document.getElementById('outputValue').value = convertedValue;
         document.getElementById('result').innerText = '';
@@ -43,7 +46,7 @@ function convert() {
 }
 
 function convertDecimalToBinary(decimalValue) {
-    const floatValue = parseFloat(decimalValue);
+    const floatValue = parseFloat(decimalValue); // Wandelt den Eingabewert in eine Gleitkommazahl um
     if (!isNaN(floatValue)) {
         const sign = floatValue < 0 ? 'nur positive Zahlen' : '';
         const integerPart = Math.abs(Math.floor(floatValue)).toString(2);
@@ -58,7 +61,7 @@ function convertDecimalToBinary(decimalValue) {
                 fractionalValue -= bit;
             }
         }
-        return sign + integerPart + fractionalPart;
+        return sign + integerPart + fractionalPart; // gibt Binärdarstellung zurück
     }
 }
 
@@ -70,11 +73,11 @@ function convertNegativeToBinary(negativeValue) {
     const intValue = parseInt(negativeValue);
     if (isNaN(intValue)) return; 
 
-    const bitLength = 8; 
+    const bitLength = 8; // definiert die bit länge von 8
     const binaryArray = new Array(bitLength); 
 
     let remainder = Math.abs(intValue);
-    for (let i = bitLength - 1; i >= 0; i--) {
+    for (let i = bitLength - 1; i >= 0; i--) {  // Konvertiert die Zahl in Binär und speichert sie im Array
         binaryArray[i] = remainder % 2;
         remainder = Math.floor(remainder / 2);
     }
@@ -92,30 +95,30 @@ function convertNegativeToBinary(negativeValue) {
         carry = Math.floor(sum / 2);
     }
 
-    return binaryArray.join('');
+    return binaryArray.join('');  // Gibt die Binärzahl als String zurück
 }
 
 function convertBinaryToNegative(binaryValue) {
-    const bitLength = binaryValue.length
+    const bitLength = binaryValue.length  // nimmt die länge der Binärzahl
 
     let decimalValue = 0;
-    for (let i = 0; i < bitLength; i++) {
+    for (let i = 0; i < bitLength; i++) {   // Konvertiert die Binärzahl in eine Dezimalzahl
         decimalValue += parseInt(binaryValue[i]) * Math.pow(2, bitLength - 1 - i);
     }
 
-    if (binaryValue[0] === '1') {
-        decimalValue = (Math.pow(2, bitLength) - decimalValue);
+    if (binaryValue[0] === '1') { // überprüft, ob das Vorzeichen negativ ist
+        decimalValue = (Math.pow(2, bitLength) - decimalValue);  // Berechnet die negative Dezimalzahl
     }
 
     return decimalValue;
 }
 
 function convertCommasToBinary(commaValue) {
-    const numbers = commaValue.split(',').map(Number);
+    const numbers = commaValue.split(',').map(Number);   // Teilt den Eingabewert in eine Liste von Zahlen
     let binaryResult = '';
 
     for (let number of numbers) {
-        let binaryNumber = convertDecimalToBinary(number.toString());
+        let binaryNumber = convertDecimalToBinary(number.toString());  // Konvertiert jede Zahl in Binär
         binaryResult += binaryNumber.padStart(8, '0'); 
     }
 
@@ -125,7 +128,7 @@ function convertCommasToBinary(commaValue) {
 
 function convertBinaryToCommas(binaryValue) {
     let decimalResult = '';
-    let binaryDigits = binaryValue.match(/.{1,8}/g); 
+    let binaryDigits = binaryValue.match(/.{1,8}/g);  // teilt die Binärzahl in 8 bit Teile
 
     for (let binaryChunk of binaryDigits) {
         let decimalNumber = convertBinaryToDecimal(binaryChunk);
